@@ -8,6 +8,6 @@ export const signUpSchema = z.object({
 });
 
 export const signInSchema = z.object({
-    emmail: z.email().toLowerCase().trim(),
+    email: z.string().email().toLowerCase().trim(),
     password: z.string().min(1),
 });
