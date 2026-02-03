@@ -23,7 +23,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit up:pg --config=drizzle.config.js",
     "db:studio": "drizzle-kit studio",
-    "dev:docker":"sh ./scripts/dev.sh"
+    "dev:docker":"sh ./scripts/dev.sh",
+    "prod:docker":"sh ./scripts/prod.sh"
   },
   "repository": {
     "type": "git",
